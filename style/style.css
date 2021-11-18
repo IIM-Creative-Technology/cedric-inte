@@ -99,6 +99,7 @@ header nav ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -114,7 +115,7 @@ header nav ul li a {
 
 .parent-elements-header > .txt_form {
   color: white;
-  width: 550px;
+  width: 700px;
   height: auto;
 }
 
@@ -131,14 +132,14 @@ header nav ul li a {
 }
 
 .parent-elements-header > .txt_form .first-input {
-  height: 54px;
+  height: 24px;
   background-color: #384170;
   color: white;
   border-radius: 10px;
 }
 
 .parent-elements-header > .txt_form input {
-  height: 54px;
+  height: 24px;
   background-color: #93A5FF;
   color: white;
   border-radius: 10px;
@@ -161,9 +162,52 @@ header nav ul li a {
 }
 
 .parent-elements-header > .txt_form select {
-  height: 54px;
+  height: 24px;
   background-color: #384170;
   color: white;
   border-radius: 10px;
+}
+
+.parent-elements-header .reseaux {
+  width: 600px;
+}
+
+.second_section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.second_section .title-middle-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.second_section .title-middle-second > h2 {
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.second_section .title-middle-second > p {
+  font-family: Nunito;
+}
+
+.second_section .englob {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px;
 }
 /*# sourceMappingURL=style.css.map */
