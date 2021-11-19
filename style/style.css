@@ -16,11 +16,12 @@
 }
 
 .header-section {
-  background-color: #424D83;
+  background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 
 header {
@@ -132,40 +133,53 @@ header nav ul li a {
 }
 
 .parent-elements-header > .txt_form .first-input {
-  height: 24px;
+  width: 300px;
+  height: 54px;
   background-color: #384170;
   color: white;
-  border-radius: 10px;
+  border-width: 0px;
+  font-family: Nunito;
+  font-weight: bold;
 }
 
 .parent-elements-header > .txt_form input {
-  height: 24px;
+  width: 222px;
+  height: 54px;
   background-color: #93A5FF;
   color: white;
-  border-radius: 10px;
+  border-width: 0px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .parent-elements-header > .txt_form ::-webkit-input-placeholder {
   color: white;
+  padding-left: 20px;
 }
 
 .parent-elements-header > .txt_form :-ms-input-placeholder {
   color: white;
+  padding-left: 20px;
 }
 
 .parent-elements-header > .txt_form ::-ms-input-placeholder {
   color: white;
+  padding-left: 20px;
 }
 
 .parent-elements-header > .txt_form ::placeholder {
   color: white;
+  padding-left: 20px;
 }
 
 .parent-elements-header > .txt_form select {
-  height: 24px;
+  width: 122px;
+  height: 54px;
   background-color: #384170;
   color: white;
-  border-radius: 10px;
+  border-width: 0px;
+  padding-left: 15px;
+  cursor: pointer;
 }
 
 .parent-elements-header .reseaux {
@@ -176,6 +190,79 @@ header nav ul li a {
   height: 100vh;
   width: 100%;
   position: relative;
+}
+
+.second_section .left-txt-icon h3 {
+  font-family: Nunito;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.second_section .left-txt-icon p {
+  font-family: Nunito;
+}
+
+.second_section .first-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0;
+}
+
+.second_section .first-row > img {
+  height: 80px;
+  width: auto;
+}
+
+.second_section .first-row .txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.second_section .second-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0;
+}
+
+.second_section .second-row > img {
+  height: 80px;
+  width: auto;
+}
+
+.second_section .second-row .txt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.second_section .third-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 25px 0;
+}
+
+.second_section .third-row > img {
+  height: 80px;
+  width: auto;
+}
+
+.second_section .third-row .txt3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 20px;
 }
 
 .second_section .title-middle-second {
@@ -209,5 +296,241 @@ header nav ul li a {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 100px;
+  position: relative;
+}
+
+.second_section .englob .only-img {
+  width: 642px;
+  height: 392px;
+}
+
+.second_section .englob .only-img .pointille1 {
+  width: 241px;
+  height: 241px;
+  position: absolute;
+  top: 20px;
+}
+
+.third-section {
+  background-color: #F7F8FF;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.third-section .title-middle-third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+}
+
+.third-section .title-middle-third > h2 {
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.third-section .title-middle-third > p {
+  font-family: Nunito;
+}
+
+.third-section .parent-bloc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  gap: 50px;
+}
+
+.third-section .parent-bloc .sky-bloc {
+  width: 600px;
+  height: 441px;
+  background-color: #93A5FF;
+  position: relative;
+  border-radius: 5px;
+}
+
+.third-section .parent-bloc .sky-bloc .image-sky {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+}
+
+.third-section .parent-bloc .sky-bloc .image-sky .space {
+  width: 77px;
+  height: 77px;
+}
+
+.third-section .parent-bloc .sky-bloc .sky-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px;
+}
+
+.third-section .parent-bloc .sky-bloc .sky-txt > h2 {
+  color: white;
+  font-family: Nunito;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.third-section .parent-bloc .sky-bloc .sky-txt p {
+  color: white;
+  font-family: Nunito;
+  line-height: 30px;
+}
+
+.third-section .parent-bloc .sky-bloc .sky-txt .button-sky {
+  background-color: white;
+  width: 175px;
+  height: 54px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.third-section .parent-bloc .sky-bloc .sky-txt .button-sky > a {
+  text-decoration: none;
+  color: #93A5FF;
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.third-section .parent-bloc .blue-bloc {
+  width: 600px;
+  height: 441px;
+  background-color: #424D83;
+  border-radius: 5px;
+  position: relative;
+}
+
+.third-section .parent-bloc .blue-bloc .image-blue {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 25px;
+}
+
+.third-section .parent-bloc .blue-bloc .image-blue .calender {
+  width: 77px;
+  height: 77px;
+}
+
+.third-section .parent-bloc .blue-bloc .image-blue .star {
+  width: 266px;
+  height: 100px;
+}
+
+.third-section .parent-bloc .blue-bloc .blue-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px;
+}
+
+.third-section .parent-bloc .blue-bloc .blue-txt > h2 {
+  color: white;
+  font-family: Nunito;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.third-section .parent-bloc .blue-bloc .blue-txt p {
+  color: white;
+  font-family: Nunito;
+  line-height: 30px;
+}
+
+.third-section .parent-bloc .blue-bloc .blue-txt .button-blue {
+  background-color: white;
+  width: 175px;
+  height: 54px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.third-section .parent-bloc .blue-bloc .blue-txt .button-blue > a {
+  text-decoration: none;
+  color: #93A5FF;
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.fourth-section {
+  height: 100vh;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
