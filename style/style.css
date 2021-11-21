@@ -16,13 +16,16 @@
   src: url(asset/robotot/Roboto-Bold.ttf) format("truetype");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header-section {
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
-  overflow-x: hidden;
 }
 
 header {
@@ -972,5 +975,35 @@ footer .englob2 .onlylogo {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+@media screen and (max-width: 1050px) {
+  .parent-elements-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .englob {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .parent-bloc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -17,7 +17,9 @@
     src: url(asset/robotot/Roboto-Bold.ttf) format('truetype');
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 .header-section {
     // background-color: #424D83;
@@ -26,7 +28,7 @@
     background-size: cover;
     height: 100vh;
     position: relative;
-    overflow-x: hidden;
+
 }
 
 header {
@@ -176,7 +178,7 @@ header {
     width: 100%;
     position: relative;
 
-    .englob{
+    .englob {
         display: flex;
         justify-content: space-between;
         margin: 100px;
@@ -255,14 +257,14 @@ header {
         position: relative;
 
 
-        :nth-child(2){
+        :nth-child(2) {
             position: absolute;
             top: -10%;
             right: -10%;
             width: 150px;
         }
 
-        :nth-child(3){
+        :nth-child(3) {
             position: absolute;
             bottom: -10%;
             left: -10%;
@@ -771,7 +773,7 @@ footer {
         align-items: center;
         color: white;
 
-        .onlylogo{
+        .onlylogo {
             display: flex;
             justify-content: flex-end;
         }
@@ -779,6 +781,20 @@ footer {
 }
 
 
-@media  screen and(max-width: 750px) {
-    
+@media screen and(max-width: 1050px) {
+    .parent-elements-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .englob {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent-bloc {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
