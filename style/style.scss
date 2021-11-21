@@ -143,6 +143,7 @@ header {
             border-width: 0px;
             text-transform: uppercase;
             cursor: pointer;
+            border-radius: 5px;
         }
 
         ::placeholder {
@@ -158,6 +159,7 @@ header {
             border-width: 0px;
             padding-left: 15px;
             cursor: pointer;
+            border-radius: 5px;
         }
 
     }
@@ -173,6 +175,16 @@ header {
     height: 100vh;
     width: 100%;
     position: relative;
+
+    .englob{
+        display: flex;
+        justify-content: space-between;
+        margin: 100px;
+        position: relative;
+
+
+    }
+
 
     .left-txt-icon {
 
@@ -239,6 +251,26 @@ header {
         }
     }
 
+    .img-right {
+        position: relative;
+
+
+        :nth-child(2){
+            position: absolute;
+            top: -10%;
+            right: -10%;
+            width: 150px;
+        }
+
+        :nth-child(3){
+            position: absolute;
+            bottom: -10%;
+            left: -10%;
+            width: 150px;
+        }
+
+    }
+
     .title-middle-second {
         display: flex;
         justify-content: center;
@@ -255,24 +287,6 @@ header {
         }
     }
 
-    .englob {
-        display: flex;
-        justify-content: center;
-        margin: 100px;
-        position: relative;
-
-        .only-img {
-            width: 642px;
-            height: 392px;
-
-            .pointille1 {
-                width: 241px;
-                height: 241px;
-                position: absolute;
-                top: 20px;
-            }
-        }
-    }
 
 }
 
@@ -307,9 +321,10 @@ header {
         top: 50%;
         left: 50%;
         gap: 50px;
+        margin-top: 30px;
 
         .sky-bloc {
-            width: 600px;
+            width: 550px;
             height: 441px;
             background-color: #93A5FF;
             position: relative;
@@ -375,7 +390,7 @@ header {
         }
 
         .blue-bloc {
-            width: 600px;
+            width: 550px;
             height: 441px;
             background-color: #424D83;
             border-radius: 5px;
@@ -471,9 +486,9 @@ header {
 
     .englob-host {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         margin-top: 50px;
-        gap: 10px;
+        width: 100%;
 
         p {
             font-family: Nunito;
@@ -481,7 +496,7 @@ header {
 
         .host1 {
             display: flex;
-            width: 358px;
+            width: 300px;
             height: 516px;
             border-radius: 5px;
             border: 1px solid rgb(255, 255, 255);
@@ -550,6 +565,7 @@ header {
     height: 80vh;
     width: 100%;
     position: relative;
+
 
     .title-middle-fifth {
         display: flex;
@@ -643,26 +659,26 @@ header {
         left: 50%;
         width: 100%;
 
-        .parent-button{
+        .parent-button {
             display: flex;
             justify-content: center;
-        
 
-        .button-trial{
-            display: flex;
-            justify-content: center;
-            margin-top: 100px;
-            width: 177px;
-            height: 54px;
-            background-color:#93A5FF;
-            align-items: center;
-            align-self: center;
-            border-radius: 10px;
 
-            a{
-                text-decoration: none;
-                color: white;
-            }
+            .button-trial {
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+                width: 177px;
+                height: 54px;
+                background-color: #93A5FF;
+                align-items: center;
+                align-self: center;
+                border-radius: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
             }
         }
 
@@ -671,7 +687,7 @@ header {
             justify-content: space-around;
             padding-right: 20px;
             padding-left: 20px;
-            
+
 
             img {
                 width: 150px;
@@ -680,4 +696,89 @@ header {
 
         }
     }
+}
+
+footer {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../img/footer_bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+
+    .englob-bloc {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+
+        .first_bloc {
+            color: white;
+        }
+
+        .parent-card {
+            display: flex;
+            flex-direction: column;
+
+            >h3 {
+                color: white;
+            }
+
+            .cards {
+                display: flex;
+                gap: 10px;
+                padding-top: 10px;
+
+                >img {
+                    width: 87px;
+                    height: 49px;
+                }
+
+                .bloc-paypal {
+                    display: flex;
+                    background-color: #2D355D;
+                    width: 87px;
+                    height: 49px;
+                    border-radius: 5px;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .bloc-visa {
+                    display: flex;
+                    background-color: #2D355D;
+                    width: 87px;
+                    height: 49px;
+                    border-radius: 5px;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+        }
+    }
+
+    .englob2 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 10%;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        color: white;
+
+        .onlylogo{
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+
+@media  screen and(max-width: 750px) {
+    
 }
